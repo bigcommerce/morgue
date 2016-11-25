@@ -1,0 +1,61 @@
+GIT
+  remote: git@github.com:gwilym/graphite-notify.git
+  revision: 786ed5e1f4ee647127c5660b1d674c6ec4e3abec
+  specs:
+    graphite-notify (0.0.4)
+      capistrano (< 3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.2.7.1)
+      activesupport (= 4.2.7.1)
+      builder (~> 3.1)
+    activeresource (4.1.0)
+      activemodel (~> 4.0)
+      activesupport (~> 4.0)
+      rails-observers (~> 0.1.2)
+    activesupport (4.2.7.1)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    builder (3.2.2)
+    capistrano (2.15.9)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
+    highline (1.7.8)
+    i18n (0.7.0)
+    json (1.8.3)
+    minitest (5.9.1)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (3.2.0)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    newrelic_api (1.2.4)
+    rails-observers (0.1.2)
+      activemodel (~> 4.0)
+    railsless-deploy (1.1.3)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activeresource
+  capistrano (< 3)
+  graphite-notify!
+  newrelic_api
+  railsless-deploy
+
+BUNDLED WITH
+   1.12.5
