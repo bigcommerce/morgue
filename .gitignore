@@ -4,3 +4,4 @@ config/development.json
 composer.lock
 composer.phar
 results.xml
+.bundle

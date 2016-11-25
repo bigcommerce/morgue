@@ -22,7 +22,7 @@ set :copy_dir, "#{Dir.tmpdir}/capistrano"
 
 set :copy_exclude, [
   # Ignore Capistrano files
-  'Capfile', 'config/deploy.rb', 'config/deploy/*.rb',
+  'Capfile', 'config/deploy.rb', 'config/deploy/*.rb', 'config/lib',
   # Ignore Git files
   '.git',
   # Ignore development files
